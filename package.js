@@ -1,10 +1,10 @@
 Package.describe({
   name: 'ocarina:hybrid-buffer',
-  version: '0.5.0',
+  version: '0.5.1',
   // Brief, one-line summary of the package.
   summary: 'A simple way to store buffers that are readable both client and server side',
   // URL to the Git repository containing the source code for this package.
-  git: 'git@github.com:aocarina/meteor-hybridbuffer.git',
+  git: 'git@github.com:aocarina/meteor-hybrid-buffer.git',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
@@ -13,6 +13,7 @@ Package.describe({
 Package.onUse(function( api ) {
   api.versionsFrom( '1.0' );
   api.addFiles( 'hybrid-buffer.js' );
+  api.export( 'HybridBuffer' );
 });
 
 Package.onTest(function( api ) {
