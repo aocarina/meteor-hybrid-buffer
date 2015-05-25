@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Package.onUse(function( api ) {
-  api.versionsFrom( '0.1' );
+  api.versionsFrom( '1.0' );
   api.addFiles( 'hybrid-buffer.js' );
 });
 
