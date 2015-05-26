@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ocarina:hybrid-buffer',
-  version: '0.5.2',
+  version: '0.5.3',
   // Brief, one-line summary of the package.
   summary: 'A simple way to store buffers that are readable both client and server side',
   // URL to the Git repository containing the source code for this package.
